@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Gyro RTP Analyzer",
+  "version": "1.0.0",
+  "description": "Local per-game RTP analysis of the open Gyro Games table.",
+  "permissions": ["activeTab", "scripting", "sidePanel"],
+  "host_permissions": ["https://gyro.dataplat.site/*"],
+  "action": {"default_title": "Open Gyro RTP Analyzer"},
+  "background": {"service_worker": "background.js"},
+  "side_panel": {"default_path": "panel.html"}
+}
